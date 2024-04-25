@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,choice;
+clrscr();
+printf("enter two numbers");
+scanf("%d %d",&a,&b);
+printf("1.and\n 2.or\n 3.xor\n  4.left shift\n  5.right shift\n  6not\n")
+printf("enter your choice");
+scanf("%d",&choice);
+switch(choice)
+{
+case 1:printf("and of two numbers=:%d ", a&b);
+break;
+case 2:printf("or of two numbers=%d", a|b);
+break;
+case 3:printf("xor of two numbers =%d ", a^b);
+break;
+case 4:printf("left shift of two numbers=%d ", a<< b);
+break;
+case 5:printf("right shift of two n umbers=%d ", a>> b);
+break;
+case 6:printf("not of two numbers=%d ", ~a);
+break;
+default:printf("wrong choice");
+}
+getch();
+}
