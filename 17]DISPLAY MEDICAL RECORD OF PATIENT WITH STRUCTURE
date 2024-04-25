@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+struct patient
+{
+int age;
+char id[5], firstname[10], surname[8],phoneno[10], disease[10];
+} patient_1;
+void main()
+{
+clrscr();
+printf("\n enter the first name: ");
+scanf("%s",patient_1.firstname  );
+printf("\n enter the surname name");
+scanf("%s",patient_1.surname );
+printf(" \n enter age ");
+scanf("%s",patient_1.age);
+printf("\n enter the id ");
+scanf("%s ",patient_1.id);
+printf("%s",enter the phone number);
+scanf(" %s",patient_1.phoneno);
+printf("\n enter the disease of the patient");
+scanf("%s",patient_1.disease);
+printf("\n patient details is :\n firstname:%s \n surname : %s \n age : %d \n id :%s\n phone:%s\n disease");
+getch();
+}
