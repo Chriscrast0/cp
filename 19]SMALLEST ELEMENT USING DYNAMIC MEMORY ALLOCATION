@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+clrscr();
+int n,i,smallest,*arr;
+printf("enter the number of elements in the array");
+scanf("%d",&n);
+arr = (int ) malloc(n sizeof(int));
+getch();
+return; }
+printf("enter %d elements :\n",n);
+for(i=0 ; i<n ; i++){
+scanf("%d",&arr[i]);
+}
+smallest=arr[0];
+for(i=0;i<n;i++)
+{
+if(arr[i]<smallest)
+{
+smallest=arr[i];
+}}
+printf("the smallest element in the array is:%d\n",smallest);
+free(arr);
+getch();
+}
