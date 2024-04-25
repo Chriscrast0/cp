@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,d,e,f,g,h,i,p=10;
+clrscr();
+char c;
+printf("enter the value of c");
+scanf("%c",&c);
+a=+p;
+b=-p;
+d=++p;
+e=p++;
+f=--p;
+g=p--;
+h=sizeof(c);
+i=!p;
+printf("a %d,b %d,d %d,e %d,f %d,g %d,h %d,i %d",a,b,d,e,f,g,h,i);
+getch();
+}
