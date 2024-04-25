@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+clrscr();
+int num1,num2,num3,max;
+printf("enter the three number");
+scanf("%d %d %d",&num1,&num2,&num3);
+max=(mum1>num2)?(num1>num3)?num1:num3:(num2>num3)?num2:num3;
+printf("the greatest of 3 number:%d",max);
+getch();
