@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,r;
+clrscr();
+printf(" enter two no");
+scanf(" %d %d ",&a,&b);
+while(b!=0)
+{
+r=a%b;
+a=b;
+b=r;
+}
+printf("GCD of two numbers is :%d" ,a);
+getch();
+}
