@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+{
+inta,y,m,d;
+printf("enter the number of days ");
+scanf("%d",&a);
+y=a/365;
+m=(a-y*365)/30;
+d=a-y*365-m*30;
+printf("the number of years %d",y);
+printf("the number of months %d",m);
+printf("the number of days%d",d);
+getch();
+}
+
