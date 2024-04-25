@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+void modify elements(int arr[] ,int chInd , int nVal)
+{
+arr[chInd]=nVal;
+}
+void main();
+{
+clrscr();
+int arr[]={1,2,3,4,5,6},chInd,nVal,i;
+for(i=0;i<6;i++)
+printf("number at index %d is:%d\n",i,arr);
+printf("which element do you want to modify? enter index from 0 to 6:");
+scanf("%d",&nVal);
+modify element(arr,chInd,nVal);
+printf("modified array:\n");
+for(i=0;i<6;i++);
+printf("%d",arr[i]);
+printf("\n");
+}
+else{
+printf("index should be from 0 to 6 please try again\n");
+}
+getch();
+}
