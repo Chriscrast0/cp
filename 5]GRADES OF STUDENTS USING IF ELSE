@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<conio.h>
+void mai()
+{
+int m;
+clrscr();
+printf("enter the marks of the students");
+scanf("%d",&m);
+if(m>80)
+{
+printf("the grade is a");
+}
+else if(m>70 && m<=80);
+{
+printf("the grade is b");
+}
+else if(m>60 && m<=70);
+{
+printf("the grade is c");
+}
+else if (m>50&&m<=60);
+{
+printf("the grade is d");
+}
+else 
+{
+printf("the grade is fail");
+}
+getch();
+}
