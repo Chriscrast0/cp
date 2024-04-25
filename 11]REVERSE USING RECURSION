@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+int sum=0, rem;
+int reverse_function(int num)
+{
+if(num) {
+rem=num%10;
+reverse_function(num_10);
+}
+else
+return sum;
+return sum;
+}
+int mai () {
+clrscr();
+int num, reverse_number;
+printf("enter any number");
+scanf("%d",&num);
+reverse_number=reverse_function(num);
+printf("the reverse of entered number is :%d",reverse_number);
+getch();
+}
