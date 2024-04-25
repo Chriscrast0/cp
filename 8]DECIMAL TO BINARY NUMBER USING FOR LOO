@@ -1,0 +1,22 @@
+#include<stdio.h>
+int dec_to_bin(int decimal)
+{
+    int rem, k = 1, bin = 0;
+    for (int i = 1; decimal > 0; i++)
+    {
+        rem = decimal % 2;
+        bin = bin + (rem * k);
+        k = k * 10;
+        decimal = decimal / 2;
+    }
+    printf("the value of binary number is = %d", bin);
+}
+int main()
+{
+int decimal;
+    printf("enter the value of decimal number =");
+    scanf("%d", &decimal);
+    printf("\n");
+    dec_to_bin(decimal);
+return 0;
+}
