@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int rows=7;
+for (int i=0; i<rows ; i++){
+for(int j=o;j<rows-i ; j++){
+printf("*");
+}
+printf("\n");
+}
+getch();
+}
+
